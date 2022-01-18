@@ -1,0 +1,51 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 800px;
+    margin: 100px auto;
+}
+.inp2{
+    display: block;
+}
+
+.textarea{
+    width: 100%;
+    height: 120px;
+    resize: none;
+}
+.input2{
+    margin-top: 30px;
+}
+.btn__add,.btn__reset{
+    width: 80px;
+    height: 40px;
+}
+.btn__reset{
+    background-color: rgb(255, 0, 0);
+}
+.btn__add{
+    background-color: rgb(255, 255, 0);
+}
+.inp_bad-words{
+    width: 79%;
+    height: 40px;
+}
+.inp2{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(2, 216, 2);
+}
+
+.words{
+    font-size: 30px;
+    font-weight: bold;
+}
+.list1{
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+}

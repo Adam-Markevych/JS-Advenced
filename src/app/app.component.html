@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="bad_words">
+        <div class='list'><span  class="words">Bad words: <span class="list1">{{ words }}</span></span></div>
+    </div>
+    <div class="input1">
+         <input type="text" (input)="check()" [(ngModel)]="badWords"  placeholder="word here.." class="inp_bad-words">
+         <button type="submit" (click)="btnADD()" [disabled] = 'check1' class="btn__add">ADD</button>
+         <button type="submit" (click)="btnReset()" class="btn__reset">RESET</button>
+    </div>
+    <div class="input2">
+        <textarea  name="comment" (input)="checkCenzor()"  [(ngModel)]="text" placeholder="text here.." class="textarea"></textarea> 
+        <button type="submit" [disabled]= 'check2'   (click)="btnCenzor()" class="inp2">CENZOR</button>
+    </div>
+    <div class="textarea1">
+    </div>
+</div>
